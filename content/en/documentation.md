@@ -1,7 +1,7 @@
 ---
 title: NavCoin Documentation
-linktitle: Hugo
-description: Hugo is the world's fastest static website engine. It's written in Go (aka Golang) and developed by bep, spf13 and friends.
+linktitle: NavCoin
+description: NavCoin is open-source; its design is public, nobody owns or controls NavCoin and everyone can take part.
 date: 2017-02-01
 publishdate: 2017-02-01
 menu:
