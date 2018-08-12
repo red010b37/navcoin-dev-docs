@@ -7,16 +7,6 @@ url: /commands/navcore_launch_opt/
 ## NavCoin Core Wallet Launch Options
 
 
-
-### Synopsis
-
-Hugo can build a site many times over and analyze the running process
-creating a benchmark.
-
-```
-hugo benchmark [flags]
-```
-
 ### Options
 
 ```
