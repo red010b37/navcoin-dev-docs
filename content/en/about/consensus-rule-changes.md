@@ -27,12 +27,12 @@ In the first case, rejection by non-upgraded nodes, mining software which gets b
 
 ## Hard Fork
 
-In the second case, rejection by upgraded nodes, it’s possible to keep the block chain from permanently diverging if upgraded nodes control a majority of the hash rate. That’s because, in this case, non-upgraded nodes will accept as valid all the same blocks as upgraded nodes, so the upgraded nodes can build a stronger chain that the non-upgraded nodes will accept as the best valid block chain. This is called a soft fork.
+In the second case, rejection by upgraded nodes, it’s possible to keep the block chain from permanently diverging if upgraded nodes control a majority of the staking weight. That’s because, in this case, non-upgraded nodes will accept as valid all the same blocks as upgraded nodes, so the upgraded nodes can build a stronger chain that the non-upgraded nodes will accept as the best valid block chain. This is called a soft fork.
 
 ## Soft Fork
 
 Although a fork is an actual divergence in block chains, changes to the consensus rules are often described by their potential to create either a hard or soft fork. For example, “increasing the block size requires a hard fork.” In this example, an actual block chain fork is not required—but it is a possible outcome.
 
-Consensus rule changes may be activated in various ways. Originally soft forks where performed by just releasing the backwards-compatible change in a client that began immediately enforcing the new rule. Multiple soft forks such since then have been activated via a flag day where the new rule began to be enforced at a preset time or block height. Such forks activated via a flag day are known as User Activated Soft Forks (UASF) as they are dependent on having sufficient users (nodes) to enforce the new rules after the flag day.
+Consensus rule changes may be activated in various ways. Originally soft forks where performed by just releasing the backwards-compatible change in a client that began immediately enforcing the new rule.
 
-Now soft forks wait for a majority of hash rate (typically 75%) to signal their readiness for enforcing the new consensus rules by staking blocks with the new version. Once the signalling threshold has been passed, all nodes will begin enforcing the new rules. Such forks are known as Node Activated Soft Forks (NASF) as they are dependent on stakers for activation.
+Now soft forks wait for a majority of hash rate (typically 75%) to signal their readiness for enforcing the new consensus rules by staking blocks. Once the signalling threshold has been passed, all nodes will begin enforcing the new rules. Such forks are known as Node Activated Soft Forks (NASF) as they are dependent on stakers for activation.

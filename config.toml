@@ -241,10 +241,19 @@ anchor = "smart"
 #    url = "/news/"
 
   [[menu.global]]
-    name = "Docs"
+    name = "Documentation"
     weight = 5
     identifier = "docs"
     url = "/documentation/"
+
+[[menu.global]]
+    name = "RPC Docs"
+    weight = 6
+    identifier = "rpc-docs"
+    post = "external"
+    url = "https://documenter.getpostman.com/view/3119275/RWTmtdT7"
+
+
 
 #  [[menu.global]]
 #    name = "Themes"
